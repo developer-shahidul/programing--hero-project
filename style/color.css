@@ -1,9 +1,15 @@
 .color-black {
   color: #0d1321;
 }
-.color-white{
-  color: #FFFFFF;
+.color-white {
+  color: #ffffff;
 }
-.bg-color-black{
+.bg-color-black {
   background-color: #0d1321;
+}
+.bg-color-target-2 {
+  background-color: #004ce8;
+}
+.bg-color-white{
+  background-color: #FEFEFE;
 }
