@@ -42,7 +42,7 @@
 .banner-content {
   width: 998px;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 32px;
