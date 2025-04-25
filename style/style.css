@@ -113,6 +113,7 @@
 }
 
 /* descriptin end */
+/* vidio section start */
 
 .inspairation-content {
   width: 1440px;
@@ -137,7 +138,10 @@
   width: 1400px;
   border-radius: 16px;
 }
+
+/* vidio section end */
 /* target start */
+
 .target {
   width: 1140px;
   text-align: center;
@@ -234,7 +238,46 @@
   height: 108px;
 }
 
-/* target start */
+/* target start  end*/
+/*from section start */
+
+.from-container {
+  height: 313px;
+  width: 1140px;
+  align-content: center;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding: 64px 48px;
+  box-sizing: border-box;
+
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/handshake.jpg");
+  background-size: cover;
+}
+.from-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#name {
+  padding: 19px 20px;
+  width: 548px;
+  border-radius: 8px;
+}
+#submit {
+  width: 120px;
+  padding: 17px 20px;
+}
+/*from section end */
 .footer-container {
   display: flex;
   justify-content: space-between;
