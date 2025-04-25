@@ -27,13 +27,18 @@
 .banner-container {
   background-image: url("../img/Hero-bg.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-clip: padding-box;
+  background-position: center;
   height: 867px;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 74px;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 .banner-content {
   width: 998px;
@@ -145,9 +150,10 @@
 .target {
   width: 1140px;
   text-align: center;
+  justify-content: center;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
   gap: 111px;
 }
 
