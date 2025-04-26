@@ -6,7 +6,8 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 1516px;
+  width: 1600px;
+  text-align: center;
   margin: 0 auto;
   margin-top: 38px;
 }
@@ -31,7 +32,7 @@
   background-origin: content-box;
   background-clip: padding-box;
   background-position: center;
-  height: 867px;
+  height: 100vh;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 74px;
@@ -68,7 +69,7 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
-  width: 1440px;
+  width: 1140px;
   height: 1393px;
   padding-top: 80px;
   text-align: center;
@@ -120,7 +121,7 @@
 /* vidio section start */
 
 .inspairation-content {
-  width: 1440px;
+  width: 1140px;
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -134,12 +135,12 @@
 }
 .vidio {
   margin-top: 50px;
-  width: 1440px;
+  width: 1140px;
   padding: 20px 0;
 }
 .vidio iframe {
   height: 550px;
-  width: 1400px;
+  width: 1140px;
   border-radius: 16px;
 }
 
@@ -173,7 +174,6 @@
   width: 1140px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-
   justify-content: space-between;
 }
 .target-content-1 {
